@@ -13,6 +13,10 @@ tortoise-orm = "*"
 pytest = "*"
 requests = "*"
 gunicorn = "*"
+pytest-cov = "*"
+flake8 = "*"
+black = "*"
+isort = "*"
 
 [requires]
 python_version = "3.8"
