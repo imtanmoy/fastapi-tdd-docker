@@ -1,6 +1,7 @@
 # fastapi-tdd-docker
 Learn how to build, test, and deploy a text summarization microservice with Python, FastAPI, and Docker
 
+![Continuous Integration and Delivery](https://github.com/imtanmoy/fastapi-tdd-docker/workflows/Continuous%20Integration%20and%20Delivery/badge.svg)
 
 ## Table of Contents
 
