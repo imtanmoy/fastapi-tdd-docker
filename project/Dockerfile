@@ -22,3 +22,6 @@ RUN pipenv install --system --deploy --ignore-pipfile
 
 # add app
 COPY . .
+
+# run entrypoint.sh
+ENTRYPOINT ["/usr/src/app/entrypoint.sh"]

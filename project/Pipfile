@@ -8,6 +8,8 @@ verify_ssl = true
 [packages]
 fastapi = "*"
 uvicorn = "*"
+asyncpg = "*"
+tortoise-orm = "*"
 
 [requires]
 python_version = "3.8"
