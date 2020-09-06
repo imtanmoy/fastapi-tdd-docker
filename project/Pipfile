@@ -12,6 +12,7 @@ asyncpg = "*"
 tortoise-orm = "*"
 pytest = "*"
 requests = "*"
+gunicorn = "*"
 
 [requires]
 python_version = "3.8"
