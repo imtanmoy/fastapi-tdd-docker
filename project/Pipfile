@@ -10,6 +10,8 @@ fastapi = "*"
 uvicorn = "*"
 asyncpg = "*"
 tortoise-orm = "*"
+pytest = "*"
+requests = "*"
 
 [requires]
 python_version = "3.8"
