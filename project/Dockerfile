@@ -10,7 +10,7 @@ ENV PYTHONUNBUFFERED 1
 
 # install system dependencies
 RUN apt-get update \
-  && apt-get -y install netcat gcc \
+  && apt-get -y install netcat gcc postgresql \
   && apt-get clean
 
 # install python dependencies
@@ -18,7 +18,7 @@ RUN pip install --upgrade pip
 RUN pip install pipenv
 
 COPY Pipfile* ./
-RUN pipenv install --system --deploy --ignore-pipfile
+RUN pipenv install --system --deploy --ignore-pipfile --dev
 
 # add app
 COPY . .

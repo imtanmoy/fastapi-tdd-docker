@@ -4,20 +4,20 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+black = "*"
+flake8 = "*"
+isort = "*"
+pytest = "*"
+pytest-cov = "*"
+pytest-xdist = "*"
 
 [packages]
 fastapi = "*"
 uvicorn = "*"
 asyncpg = "*"
 tortoise-orm = "*"
-pytest = "*"
 requests = "*"
 gunicorn = "*"
-pytest-cov = "*"
-flake8 = "*"
-black = "*"
-isort = "*"
-pytest-xdist = "*"
 newspaper3k = "*"
 
 [requires]
