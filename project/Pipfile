@@ -18,6 +18,7 @@ flake8 = "*"
 black = "*"
 isort = "*"
 pytest-xdist = "*"
+newspaper3k = "*"
 
 [requires]
 python_version = "3.8"
